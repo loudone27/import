@@ -16,10 +16,10 @@
 USER=$(whoami)
 USER_NEEDED=elasticsearch
 
-PATH_ES_MASTER=/app/elasticsearch/elasticsearch-6.4.2
-PATH_ES_DATA=/app/elasticsearch/elasticsearch-6.4.2_2
-INSTANCE_MASTER=elasticsearch-6.4.2
-INSTANCE_DATA=elasticsearch-6.4.2_2
+PATH_ES_MASTER=/app/elasticsearch/elasticsearch
+PATH_ES_DATA=/app/elasticsearch/elasticsearch_2
+INSTANCE_MASTER=elasticsearch-6.8.7
+INSTANCE_DATA=elasticsearch-6.8.7_2
 
 HEAP_SIZE=512m             # CHOICE ALLOWED : 256m, 512m, 1g, 2g, 4g, etc
 
